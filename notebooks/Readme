@@ -1,0 +1,129 @@
+
+
+
+# 📊 Sales Data Analysis Project
+
+Welcome to the **Sales Data Analysis Project**! This project analyzes a supermarket's sales data to uncover insights on sales performance, customer behavior, and product line profitability. Using Python and various data visualization libraries, this project aims to provide actionable insights through exploratory data analysis (EDA).
+
+---
+
+## 📝 Project Overview
+
+The dataset contains supermarket sales records, including details like **branch location, customer type, payment method, product line, unit price, gross income**, and more. This analysis focuses on answering questions like:
+- What are the most profitable product lines?
+- Which branch performs best in terms of sales?
+- How do customer demographics affect spending patterns?
+- When are the peak sales times?
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+sales-analysis/
+├── sales.ipynb        # Main Jupyter Notebook with code and visualizations
+└── README.md          # Project description, usage, and installation instructions
+```
+
+---
+
+## ⚙️ Setup and Installation
+
+To run this project on your local machine, please follow the steps below.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sonpalparmar/sales-analysis.git
+cd sales-analysis
+```
+
+### 2. Install Required Packages
+Make sure to install all dependencies listed in `requirements.txt`. Install them using:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 💻 Running the Project
+
+The project is developed in a Jupyter Notebook. You can run the analysis by opening `sales.ipynb` and executing each cell step-by-step.
+
+```bash
+jupyter notebook sales.ipynb
+```
+
+> **Note**: You need Jupyter Notebook installed. You can install it using `pip install jupyter`.
+
+---
+
+## 📊 Data Analysis and Visualization
+
+The analysis explores several aspects of the dataset, covering basic descriptive statistics, visualizations, and deeper insights.
+
+### Key Visualizations and Analysis
+- **📍 Sales Distribution by Branch and City**: Compares sales revenue across different branches and cities.
+- **📈 Product Line Revenue Contribution**: Shows the proportion of revenue each product line contributes.
+- **👥 Customer Type Analysis**: Compares spending behavior between Members and Normal customers.
+- **🕒 Sales Trends Over Time**: Analyzes peak sales hours and days of the week.
+- **🔄 Payment Method Analysis**: Identifies customer payment preferences across product lines.
+
+---
+
+## ✨ Advanced Features
+
+### 1. **Interactive Visualizations**
+   - Some visualizations in this project use `plotly` for interactive plots, allowing you to zoom, filter, and hover over data points for detailed information.
+
+### 2. **Correlation Heatmaps**
+   - A correlation heatmap is used to show the relationships between numerical columns, helping identify factors that most influence `gross income`.
+
+### 3. **Customer Journey Analysis**: 
+   - Using Sankey diagrams, this analysis visualizes the flow of customers from type to branch to product line, helping identify major revenue sources.
+
+### 4. **Radial Bar Charts and Bubble Charts**
+   - Unique visualizations such as radial bar and bubble charts provide insights on customer ratings, product line unit prices, and quantity sold.
+
+### 5. **Time-Series Analysis**
+   - The project includes a time-series breakdown by date and time, uncovering trends that can help optimize store hours and promotions.
+
+---
+
+## 🚀 Future Scope
+
+1. **Machine Learning Models**: Implement predictive models to forecast sales or recommend products based on customer profiles.
+2. **Customer Segmentation**: Use clustering techniques to identify customer segments for targeted marketing.
+3. **Sentiment Analysis**: Analyze customer ratings to gauge satisfaction across branches and product lines.
+
+---
+
+## 📜 Requirements
+
+To run this project, the following packages are required:
+- Python 3.x
+- Jupyter Notebook
+- pandas
+- seaborn
+- matplotlib
+- plotly
+- numpy
+
+> **Tip**: Run `pip install -r requirements.txt` to install all dependencies.
+
+---
+
+## 👤 Author
+
+**[Sonpal Parmar]**
+
+For questions, please reach out at [sonpalparmar20@gmail.com](mailto:sonpalparmar20@gmail.com).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy Analyzing! 🎉

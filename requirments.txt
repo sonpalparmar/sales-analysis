@@ -1,0 +1,5 @@
+nbformat
+pandas
+numpy
+seaborn
+matplotlib
